@@ -1,0 +1,229 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+header > img {
+  width: 200px;
+  padding-top: 12px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+header > input {
+  border-radius: 12px;
+  width: 1000px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin: 25px;
+  padding: 4px;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.879);
+  text-decoration: none;
+  color: rgb(242, 245, 245);
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 2px #000;
+  border-radius: 2px;
+}
+
+body > main > nav > {
+  box-shadow: 8px 8px 8px #000;
+}
+
+nav > a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: poppins, sans-serif;}
+ 
+
+.topperfil2 > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.posts > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background: #f2f2f2;
+}
+#container .topperfil img {
+  border-radius: 256px;
+  width: 256px;
+  margin-top: 8px;
+}
+
+#container .topperfil {
+  display: flex;
+  justify-content: center;
+  background: #dedddd;
+  padding-bottom: 8px;
+}
+
+.topperfil2 {
+  display: flex;
+  justify-content: space-around;
+  background: #f2f2f2;
+  border-radius: 8px;
+}
+
+.editperfil {
+  display: flex;
+  justify-content: center;
+  background: #dedddd;
+  padding-bottom: 8px;
+}
+
+.editperfil button {
+  width: 156px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #2695b4;
+  cursor: pointer;
+}
+
+.editperfil button:hover {
+  background-color: #68d3f1;
+  transform: scale(1.1);
+}
+
+.ponto {
+  text-decoration: none;
+  color: black;
+  margin-top: 16px;
+}
+
+
+
+.posts button {
+  width: 25%;
+  border-radius: 16px;
+  padding: 10px 0;
+  background-color: #2695b4;
+  cursor: pointer;
+}
+
+.posts p {
+  color: #26262697;
+  display: flex;
+  text-align: center;
+  cursor: default;
+}
+
+.posts p h1 {
+  cursor: default;
+}
+
+.posts button:hover {
+  background-color: #68d3f1;
+  transform: scale(1.1);
+}
+
+.posts button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.posts h1 {
+  text-align: center;
+}
+footer {
+  background-color: #0d0d0d;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+.rodape {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rodape h2 {
+  font-family: poppins, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #e2e2e2;
+}
+
+.rodape p {
+  font-size: 1.1rem;
+  color: #efeeee;
+  margin-bottom: 24px;
+}
+.rodapeform {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 14px 20px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: poppins, sans-serif;
+}
+
+.rodapeform input[type="email"] {
+  padding: 14px 20px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: poppins, sans-serif;
+}
+.rodapeform input[type="password"] {
+  padding: 14px 20px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: poppins, sans-serif;
+}
+
+.rodapeform button {
+  padding: 14px 32px;
+  border-radius: 16px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  font-family: poppins, sans-serif;
+  cursor: pointer;}
+
+.rodapeform button:hover {
+  background-color: #2695b4;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.colagens {
+display: flex;
+justify-content: center;
+gap: 240px;
+border-radius: 140px
+}
+
+.colagens img {
+  border-radius: 15%;
+}
+
+.colagens {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.colagens p {
+  margin-top: 8px;
+  font-family: poppins, sans-serif;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}

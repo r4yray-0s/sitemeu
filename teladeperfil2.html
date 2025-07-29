@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pagina inicial</title>
+  <link rel="stylesheet" href="teladeperfil2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?familyPoppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+       <main>
+      <img src="imagem/logodomemoriesbranca.png" alt="">
+      <input class="pesquisar" type="text" name="pesquisar" placeholder="Pesquisar">
+      <button id="btn-menu" aria-label="Abrir menu">&#9776;</button>
+      <nav id="menu-lateral">
+        <img src="imagem/logopreta.png" width="200px" style="margin-left: 16px;">
+        <button id="fechar-menu" aria-label="Fechar menu">&times;</button>
+        <ul class="botoes">
+          <li class="botoes1"><a href="Páginainicial.html" class="ah">Página Inicial</a></li>
+          <li class="botoes1">
+            <button id="btn-categorias" class="ah">Categorias &#9662;</button>
+            <ul id="lista-categorias" style="display:none;">
+              <li><a href="#" class="ah">Profissionais</a></li>
+              <li>
+                <a href="#" class="ah">Paisagens</a>
+              </li>
+              <li>
+                <a href="#" class="ah">Filmes</a>
+              </li>
+              <li>
+                <a href="#" class="ah">Animais</a>
+              </li>
+            </ul>
+          </li>
+          <li class="botoes1"><a href="paginaconfiguracao.html" class="ah">Configurações</a></li>
+        </ul>
+      </nav>
+    </header>
+    <nav>
+      <a class="Geral" href="Páginainicial.html" id="Geral">Geral</a>
+      <a href="páginavideo.html" id="Vídeos">Vídeos</a>
+      <a href="paginasobrenos.html" id="Sobre nós">Sobre nós</a>
+      <a href="Páginaperfil.html" id="Perfil"> Perfil</a>
+    </nav>
+   
+  <div id="container">
+    <div class="topperfil">
+      <img src="imagem/mulheroculos.jpeg" alt="perfil" width="150px" height="250px"  >
+    </div>
+    <div class="topperfil">
+      <h3>@Anonelapoir6_</h3>
+    </div>
+    <div class="editperfil">
+      <button>Seguir Perfil</button>
+    </div>
+    <hr>
+    <div class="topperfil2">
+      <a href="paginaoutrapessoa.html" class="ponto">Postagens</a>
+      <a href="pastassalvaspessoa.html" class="ponto1">Fotos salvadas</a>
+      <a href="colagemoutrapessoa.html" class="ponto1">Colagens</a>
+    </div>
+    <section>
+      <div class="juntarimagens">
+        <img class="img" src="imagem/imagempassarinho.jpeg" width="200px" alt="">
+        <img class="img" src="imagem/frutavermepreta.jpeg" width="200px" alt="">
+        <img class="img" src="imagem/lontraimagem.jpeg" width="200px" alt="">
+        <img class="img" src="imagem/homemfazendomortal.jpeg" width="200px" alt="">
+        <img class="img" src="imagem/imagemolhocomflor.webp" width="200px" alt="">
+      </div>
+    </section>
+    <footer>
+      <div class="rodape">
+        <h2>Fique por Dentro</h2>
+        <p>Preencha o campo para fazer parte da nossa equipe.</p>
+        <form class="rodapeform">
+          <input type="email" placeholder="Seu e-mail" required>
+          <input type="password" placeholder="senha" required>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+    </footer>
+    </main>
+     <script src="Páginainicial.js"></script>
+    </body>

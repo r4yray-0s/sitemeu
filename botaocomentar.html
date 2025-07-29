@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Botão Comentar</title>
+    <link rel="stylesheet" href="botaocomentar.css">
+</head>
+<body>
+    <div class="comment-container">
+        <button id="commentButton" class="comment-btn" aria-label="Comentar">
+            <span class="comment-icon">&#128172;</span>
+        </button>
+        <span id="commentCount" class="comment-count">0</span>
+    </div>
+    <div id="commentBox" class="comment-box" style="display: none;">
+        <textarea id="commentInput" placeholder="Digite seu comentário..."></textarea>
+        <button id="sendComment" class="send-btn">Enviar</button>
+    </div>
+    <script src="botaocomentar.js"></script>
+</body>
+</html>

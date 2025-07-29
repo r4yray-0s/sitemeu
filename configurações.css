@@ -1,0 +1,176 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f6f6;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.settings-header {
+    background: #181818;
+    padding: 24px 0 16px 0;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+.settings-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+
+.settings-container {
+    max-width: 500px;
+    margin: 15px auto;
+    background: #000000;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px #0004;
+    padding: 4px 40px;
+}
+
+
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #222;
+}
+
+.setting-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.setting-item span {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.setting-item select {
+    background: #111;
+    color: #fdffff;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.setting-item select:focus {
+    border: 1.5px solid #fff;
+}
+
+.save-settings-btn {
+    width: 100%;
+    background: linear-gradient(90deg, #2695d4 0%, #2695d4 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.save-settings-btn:hover {
+    background: linear-gradient(90deg, #85b5c4 0%, #00e6fb 100%);
+    color: #fff;
+}
+
+.settings-message {
+    text-align: center;
+    margin-top: 18px;
+    color: #00e6fb;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+/* Switch estilo Instagram */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #333;
+    border-radius: 24px;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.switch input:checked + .slider {
+    background: linear-gradient(90deg, #2695d4 0%, #2695d4 100%);
+}
+
+.switch input:checked + .slider:before {
+    transform: translateX(20px);
+    background: #00e6fb;
+}
+
+.change-password-btn {
+    background: #222;
+    color: #00e6fb;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.change-password-btn:hover {
+    background: #00e6fb;
+    color: #111;
+}
+
+.help-section {
+    margin-top: 36px;
+    background: #181818;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px #0002;
+}
+
+.help-section h3 {
+    color: #00e6fb;
+    margin-bottom: 10px;
+}
+
+.help-link {
+    color: #00e6fb;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.help-link:hover {
+    color: #2695d4;}

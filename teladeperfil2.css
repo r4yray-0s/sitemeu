@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  margin: 0;
+   font-family: "Noto Sans", sans-serif; }
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+main> img {
+  width: 200px;
+  padding-top: 12px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+main > input {
+  border-radius: 12px;
+  width: 1000px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin: 25px;
+  padding: 4px;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.879);
+  text-decoration: none;
+  color: rgb(242, 245, 245);
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 2px #000;
+  border-radius: 2px;
+}
+
+
+nav > a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: poppins, sans-serif;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #292929;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: rgba(232, 225, 237, 0.682);
+}
+
+:root {
+  --bg: #f9f9f9;
+  --menu-bg: #fff;
+  --accent: #222;
+  --hover: #eaeaea;
+  --border: #e0e0e0;
+}
+
+body {
+  background: var(--bg);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#btn-menu {
+  margin: 16px 64px 16px 16px;
+  position: relative;
+  left: 8px;
+  background: var(--menu-bg);
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  z-index: 1100;
+  color: var(--accent);
+  border-radius: 8px;
+  padding: 8px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+#menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -280px;
+  width: 260px;
+  height: 50%;
+  background: var(--menu-bg);
+  box-shadow: 2px 0 16px rgba(0, 0, 0, 0.06);
+  border-right: 1px solid var(--border);
+  transition: left 0.3s;
+  z-index: 1200;
+  padding: 32px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-lateral.aberto {
+  left: 0;
+}
+
+#fechar-menu {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--accent);
+  cursor: pointer;
+  align-self: flex-end;
+  margin: 0 16px 24px 0;
+}
+
+.botoes {
+  list-style: none;
+  padding: 0 0 0 24px;
+  margin: 0;
+}
+
+.botoes1 {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ah,
+.botoes1 button {
+  text-decoration: none;
+  color: var(--accent);
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 8px 0;
+  border-radius: 4px;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.ah:hover,
+.botoes1 button:hover {
+  background: var(--hover);
+  transition: 0.5ms ease-out;
+}
+
+#lista-categorias {
+  margin-top: 8px;
+  padding-left: 12px;
+  background: none;
+  border-left: 2px solid var(--border);
+  list-style: none;
+}
+
+#lista-categorias li {
+  margin: 0 0 8px 0;
+}
+
+#lista-categorias .ah {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  #menu-lateral {
+    width: 80vw;
+    min-width: 180px;
+    max-width: 320px;
+  }
+
+  #btn-menu {
+    left: 12px;
+    top: 12px;
+    font-size: 1.5rem;
+    padding: 6px 12px;
+  }
+}
+
+.btnconfig {
+  margin-bottom: 64px;
+  text-decoration: none;
+}
+
+#lista-categorias {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 464px;
+}
+
+#container .topperfil img {
+  border-radius: 50%;
+  width: 256px;
+  margin-top: 8px;
+}
+
+#container .topperfil {
+  display: flex;
+  justify-content: center;
+  background: #dedddd;
+  padding-bottom: 8px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: #181818;
+    padding: 32px 0 24px 0;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px #0003;
+    margin-bottom: 32px;
+}
+
+.username {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00e6fb;
+    letter-spacing: 1px;
+    margin-right: 12px;
+}
+
+.follow-btn {
+    background: linear-gradient(90deg, #00e6fb 0%, #2695d4 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+    box-shadow: 0 2px 8px #00e6fb33;
+}
+
+.follow-btn:hover {
+    background: linear-gradient(90deg, #2695d4 0%, #00e6fb 100%);
+    color: #181818;
+    transform: scale(1.05);
+}
+
+.topperfil2 {
+  display: flex;
+  justify-content: space-around;
+  background: #f2f2f2;
+  border-radius: 8px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: #181818;
+    padding: 32px 0 24px 0;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px #0003;
+    margin-bottom: 32px;
+}
+
+.username {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00e6fb;
+    letter-spacing: 1px;
+    margin-right: 12px;
+}
+
+.follow-btn {
+    background: linear-gradient(90deg, #00e6fb 0%, #2695d4 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+    box-shadow: 0 2px 8px #00e6fb33;
+}
+
+.follow-btn:hover {
+    background: linear-gradient(90deg, #2695d4 0%, #00e6fb 100%);
+    color: #181818;
+    transform: scale(1.05);
+}
+
+.editperfil button {
+  width: 156px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #2695b4;
+  cursor: pointer;
+}
+
+.editperfil button:hover {
+  background-color: #68d3f1;
+  transform: scale(1.1);
+}
+
+.ponto {
+  color: black;
+  margin-top: 0px;
+}
+
+.ponto1{
+  text-decoration: none;
+  color: black;
+  margin-top: 0px;
+}
+
+.posts {
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px auto 0 auto;
+  border: #26262640 solid 4px;
+  border-radius: 16px;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  max-width: 350px;
+  min-width: 220px;
+  box-shadow: 4px 4px #26262640;
+  background: #f2f2f2;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.posts button {
+  width: 25%;
+  border-radius: 16px;
+  padding: 10px 0;
+  background-color: #2695b4;
+  cursor: pointer;
+}
+
+.posts p {
+  color: #26262697;
+  display: flex;
+  text-align: center;
+  cursor: default;
+}
+
+.posts p h1 {
+  cursor: default;
+}
+
+.posts button:hover {
+  background-color: #68d3f1;
+  transform: scale(1.1);
+}
+
+.posts button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.posts h1 {
+  text-align: center;
+}
+footer {
+  background-color: #0d0d0d;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+.rodape {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rodape h2 {
+  font-family: poppins, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #e2e2e2;
+}
+
+.rodape p {
+  font-size: 1.1rem;
+  color: #efeeee;
+  margin-bottom: 24px;
+}
+.rodapeform {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 14px 20px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: poppins, sans-serif;
+}
+
+.rodapeform input[type="email"] {
+  padding: 14px 20px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: poppins, sans-serif;
+}
+.rodapeform input[type="password"] {
+  padding: 14px 20px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-family: poppins, sans-serif;
+}
+
+.rodapeform button {
+  padding: 14px 32px;
+  border-radius: 16px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  font-family: poppins, sans-serif;
+  cursor: pointer;}
+
+.rodapeform button:hover {
+  background-color: #2695b4;
+  color: #000;
+  transform: scale(1.05);
+}
+.juntarimagens{
+  display: flex;
+  justify-content:center;
+  gap: 70px;
+  margin-top: 70px;
+}
+.img{
+  border-radius: 40px;
+}

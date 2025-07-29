@@ -1,0 +1,39 @@
+.like-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.like {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    transition: transform 0.1s;
+}
+
+.like-botao:active {
+    transform: scale(1.1);
+}
+
+.heart {
+    font-size: 40px;
+    color: #706868;
+    transition: color 0.3s, text-shadow 0.3s;
+    user-select: none;
+}
+
+.liked .heart {
+    color: #af382b;
+    text-shadow: 0 0 10px #e74c3c88;
+}
+
+.like-count {
+    font-size: 1.5rem;
+    color: #000000;
+    min-width: 24px;
+    text-align: center;
+}

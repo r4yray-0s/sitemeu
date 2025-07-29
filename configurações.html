@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurações</title>
+    <link rel="stylesheet" href="configurações.css">
+</head>
+<body>
+    <div class="settings-header">
+        <span class="settings-title">Configurações</span>
+    </div>
+    <div class="settings-container">
+        <form id="settingsForm">
+            <div class="setting-item">
+            </div>
+            <div class="setting-item">
+                <span>Notificações</span>
+                <label class="switch">
+                    <input type="checkbox" id="notifications" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="setting-item">
+                <span>Conta privada</span>
+                <label class="switch">
+                    <input type="checkbox" id="privateAccount">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="setting-item">
+                <span>Idioma</span>
+                <select id="language">
+                    <option value="pt-br">Português</option>
+                    <option value="en">Inglês</option>
+                    <option value="es">Espanhol</option>
+                </select>
+            </div>
+            <div class="setting-item">
+        <span>Mudar senha</span>
+        <button type="button" class="change-password-btn" id="changePasswordBtn">Alterar</button>
+    </div>
+    <button type="submit" class="save-settings-btn">Salvar</button>
+</form>
+<div class="help-section">
+    <h3>Ajuda</h3>
+    <p>Precisa de suporte? <a href="mailto:suporte@seudominio.com" class="help-link">Fale conosco</a></p>
+</div>
+            
+        <div id="settingsMessage" class="settings-message"></div>
+    </div>
+    <script src="configurações.js"></script>
+</body>
+</html>
